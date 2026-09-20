@@ -1,4 +1,4 @@
-# SwimMP3 for macOS
+# DeviceMP3 for macOS
 
 面向普通 Mac 用户的外接 U 盘音乐整理工具。双击运行后选择 U 盘，即可把 `.ncm`、`.flac` 和已有 `.mp3` 统一整理到 `MP3` 文件夹，适合游泳骨传导耳机及普通离线 MP3 播放器。
 
@@ -10,7 +10,7 @@
 - 递归扫描子文件夹，忽略 macOS 隐藏索引和废纸篓
 - 转换失败时保留源文件
 - 重复运行会跳过已有结果
-- 在 U 盘的 `MP3/SwimMP3-转换记录.txt` 保存处理记录
+- 在 U 盘的 `MP3/DeviceMP3-转换记录.txt` 保存处理记录
 
 ## 系统要求
 
@@ -27,7 +27,7 @@ brew install ffmpeg ncmdump
 
 ## 使用方法
 
-1. 下载 `SwimMP3.command`。
+1. 下载 `DeviceMP3.command`。
 2. 插入 U 盘。
 3. 双击脚本并选择 U 盘。
 4. 建议首次选择“保留源文件”。
